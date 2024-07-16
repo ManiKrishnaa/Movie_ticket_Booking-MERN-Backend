@@ -13,6 +13,14 @@ const moment = require("moment");
 
 const secretKey = "Movie_booking00124123124";
 
+app.use(cors(
+    {
+        origin : {"https://movie-ticket-booking-mern-frontend-oh9r1fkkr.vercel.app"},
+        methods : {"POST","GET"},
+        credentials : true
+    }
+));
+
 
 mongoose.connect('mongodb+srv://manikrishna9970:manikrishna9970@nani.8rxselx.mongodb.net/?retryWrites=true&w=majority&appName=nani')
 .then(()=>{
