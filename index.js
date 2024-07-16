@@ -14,7 +14,7 @@ const moment = require("moment");
 const secretKey = "Movie_booking00124123124";
 
 app.use(cors({
-  origin: 'https://movie-ticket-booking-h9ph5ds6l-users-projects-d20ca1d0.vercel.app',
+  origin: '',https://movie-ticket-booking-h9ph5ds6l-users-projects-d20ca1d0.vercel.app
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true  
